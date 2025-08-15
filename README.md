@@ -1,6 +1,8 @@
 # Phase 3 – Gestion d’équipements (Next.js + TypeScript + Tailwind CSS)
 
-Ce projet est une mini-application développée avec **Next.js**, **TypeScript** et **Tailwind CSS**. Dans le cadre d'un recrutement 
+Ce projet est une mini-application développée avec **Next.js**, **TypeScript** et **Tailwind CSS**. Dans le cadre de la troisième phase de recrutement pour GreenSpace
+
+Réalisé par Mathis HEDER
 
 ##  Fonctionnalités
 
@@ -30,6 +32,24 @@ Pour compléter le projet il manque :
  - Ajouter la possibilité de créer des fiches ✅
  - Rendre les liens du header clickable ✅
  
+
+## Des exemples d'amélioration
+Système de pagination pour faciliter la navigation entre les équipements.
+
+Filtrage et recherche (par nom, catégorie, état, score d’obsolescence).
+
+
+Gestion des images pour chaque équipement (upload et affichage).
+
+Export des données (CSV, Excel ou PDF).
+
+
+Authentification et gestion des rôles pour sécuriser l’accès aux fonctionnalités.
+
+Interface responsive améliorée pour une meilleure expérience sur mobile et tablette.
+
+Tests unitaires et d’intégration dans l’application.
+
 ##  Lancer le projet
 
 Ouvrir le dossier 'frontend' et creer un fichier nommé '.env.local'. Insérez y ces deux variables :
@@ -44,6 +64,38 @@ Puis dans un terminal, exécuter :
 - npm run dev
 
 Dans un autre terminal, exécuter :
+- pip install "fastapi[standard]"
 - pip install "uvicorn[standard]" 
 - cd ./backend/app
 - uvicorn main:app --reload
+
+
+# Le rendu final
+
+## Voici la page d'accueil qui permet de faire une mise en situation pour l'application
+![Accueil](ImageRendu/Accueil.png)
+
+
+## Voici les sections "à propos" et "Le projet"
+![a-propos](ImageRendu/apropos.png)
+
+![Projet](ImageRendu/leProjet.png)
+
+## Voici la page principale de l'application
+![Dashboard](ImageRendu/dashboard.png)
+
+On y voit la liste d'équipements ainsi que le menu qui permet d'accéder aux différentes composantes de l'application
+
+## Voici la page d'un équipement
+
+lorsque l'on clique sur un équipement, la liste des pièces qui le compose est chargé. 
+![Pieces](ImageRendu/equipement1.png)
+![Pieces](ImageRendu/equipement2.png)
+
+
+
+## Voici la page "Ajouter un équipement"
+![AjoutEquipement](ImageRendu/ajouterEquip.png)
+
+## Voici la page "Ajouter une piece"
+![AJoutPiece](ImageRendu/ajouterPiece.png)
