@@ -1,6 +1,6 @@
 # Phase 3 – Gestion d’équipements (Next.js + TypeScript + Tailwind CSS)
 
-Ce projet est une mini-application développée avec **Next.js**, **TypeScript** et **Tailwind CSS**. Dans le cadre de la troisième phase de recrutement pour GreenSoace
+Ce projet est une mini-application développée avec **Next.js**, **TypeScript** et **Tailwind CSS**. Dans le cadre d'un recrutement 
 
 ##  Fonctionnalités
 
